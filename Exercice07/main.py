@@ -29,6 +29,6 @@ def square(n):
 
 # 🧪 Exemples d'utilisation de la fonction
 
-print(square(5))  # Affiche : 25
-print(square(3.2))  # Affiche : 10.24
-print(square("texte"))  # Affiche un message d'erreur et retourne None
+print(f"Carré de 5 : {5 * 5}")  # Affiche : 25
+print(f"Carré de 3.2 : {3.2 * 3.2:.2f}")  # Affiche : 10.24
+print(f"Carré de 'texte' : {square('texte')}")  # Affiche le message d'erreur
